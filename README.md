@@ -10,7 +10,8 @@ In this lab, we practice solving two problems using brute-force strategy.
    
 ## Preparation
 
-1. Download the lab1.py. 
+1. Download the lab1.py.
+2. Read this article which descrbies **main** function in Python. 
 
 
 ## Overall requirements: 
@@ -18,11 +19,23 @@ In this lab, we practice solving two problems using brute-force strategy.
    Write comments for keep parts of your function. 
 
 ## Detail Requirements:
-1.  Implement a function **SearchWord (para, word)** as follows. Note that this is the same problem that we worked during in-class practice:
 
+We practice writing two functions to test whether a string is a substring of another string, and test whether a string is a subsequence of another string. 
+
+The difference between substring and subsequence:  **substring** is a continuous part of a string, whereas **subsequence** is the part of a string , that might be continuous or not but the order of the elements is maintained.
+
+For example, let's say we have the following strings:
+
+* "low" is a substring of "helloworld", and also a subsequence of "helloworld".
+* while "how" is **NOT** a substring of "helloworld", but it **IS** a subsequence of "helloworld" (because it is part of "helloworld", but not a contiguous part of it).
+* "oed" is not a substring, nor a subsequence of "helloworld" (although each of the characters o, e, d appears in "helloworld", the order of these chara is not maintained.). 
+
+1.  Implement a function **IsSubstring (str1, str2)**, which return True if **str2** is a substring of **str1**, and return False if it is not. 
+
+Note that this is fundamentally the same as the **FindWord** function we worked on during in-class practice. 
    
-3.  Implement a function **IsSubsequence (para, word)** to test if word is a subsequence of para.
-   
+3.  Implement a function **IsSubsequence (str1, str2)**, which returns True if **str2** is a subsequence of **str1**, return False if it is not.
+4. 
 5.  Test both of your functions in the **main**, you need to design at least four testcases for each functions.
    
 ## Submission
