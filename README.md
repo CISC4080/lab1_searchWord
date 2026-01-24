@@ -11,7 +11,7 @@ In this lab, we practice solving two problems using brute-force strategy.
 ## Preparation
 
 1. Download the lab1.py.
-2. Read this article which descrbies **main** function in Python. 
+2. Read this [article](https://realpython.com/python-main-function/) which descrbies **main** function in Python. 
 
 
 ## Overall requirements: 
@@ -35,12 +35,11 @@ For example, let's say we have the following strings:
 Note that this is fundamentally the same as the **FindWord** function we worked on during in-class practice. 
    
 3.  Implement a function **IsSubsequence (str1, str2)**, which returns True if **str2** is a subsequence of **str1**, return False if it is not.
-4. 
 5.  Test both of your functions in the **main**, you need to design at least four testcases for each functions.
    
 ## Submission
 
-Submit your code named **lab1.py** on Blackboard. 
+Submit your code named **lab1.py**. 
 
 
   
