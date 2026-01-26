@@ -24,12 +24,14 @@ We practice writing two functions to test whether a string is a substring of ano
 
 The difference between substring and subsequence:  **substring** is a continuous part of a string, whereas **subsequence** is the part of a string , that might be continuous or not but the order of the elements is maintained.
 
-For example, let's say we have the following strings:
+For example, 
 
 * "low" is a substring of "helloworld", and also a subsequence of "helloworld".
 * while "how" is **NOT** a substring of "helloworld", but it **IS** a subsequence of "helloworld" (because it is part of "helloworld", but not a contiguous part of it).
 * "oed" is not a substring, nor a subsequence of "helloworld" (although each of the characters o, e, d appears in "helloworld", the order of these chara is not maintained.). 
-
+* empty string "" is a substring of any string.
+* empty string "" is also a subsequence of any string.
+  
 1.  Implement a function **IsSubstring (str1, str2)**, which return True if **str2** is a substring of **str1**, and return False if it is not. 
 
 Note that this is fundamentally the same as the **FindWord** function we worked on during in-class practice. 
@@ -39,7 +41,9 @@ Note that this is fundamentally the same as the **FindWord** function we worked 
    
 ## Submission
 
-Submit your code named **lab1.py**. 
+Submit your code named **lab1.py** on autograder site at the following link: 
+
+TBA. 
 
 
   
