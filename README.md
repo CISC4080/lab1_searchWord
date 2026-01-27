@@ -43,7 +43,8 @@ Note that this is fundamentally the same as the **FindWord** function we worked 
 
 Submit your code named **lab1.py** on autograder site at the following link: 
 
-TBA. 
+[Autograder submission link
+](https://storm.cis.fordham.edu:8443/web/project/2656)
 
 
   
