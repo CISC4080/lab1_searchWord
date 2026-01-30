@@ -46,5 +46,7 @@ Submit your code named **lab1.py** on autograder site at the following link:
 [Autograder submission link
 ](https://storm.cis.fordham.edu:8443/web/project/2656)
 
+Please review the [handgrading rubric](https://drive.google.com/file/d/1GwAslQrGW3gxo9-SwDAvg1W_RbCY9kMm/view?usp=sharing)r(click on the link to review) to make sure you understand the expectation on coding style.
+
 
   
